@@ -3,7 +3,7 @@ coupledb = {}
 
 async def _get_lovers(cid: int):
     chat_data = coupledb.get(cid, {})
-    lovers = chat_data.get("couple", {})
+    lovers = chat_data.get("off", {})
     return lovers
 
 
@@ -20,9 +20,9 @@ async def get_couple(cid: int, date: str):
 
 async def save_couple(cid: int, date: str, couple: dict, img: str):
     if cid not in coupledb:
-        coupledb[cid] = {"couple": {}, "img": ""}
-    coupledb[cid]["couple"][date] = couple
+        coupledb[cid] = {"off": {}, "img": ""}
+    coupledb[cid]["off"][date] = couple
     coupledb[cid]["img"] = img
 
 
-# ❤️ Love From ShrutiBots 
+# ❤️ Love From KAIxGen
