@@ -1,7 +1,7 @@
 {
   "name": "Shruti Music",
   "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-  "logo": "https://files.catbox.moe/v7hio8.jpg",
+  "logo": "https://files.catbox.moe/3nujem.png",
   "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "29448785",
+      "value": "26851110",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "599574f6aff0a09ebb76305b58e7e9c2",
+      "value": "5157f6c9fce3e7d45a9a6593709709cf",
       "required": true
     },
     "BOT_TOKEN": {
@@ -34,12 +34,12 @@
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7574330905",
+      "value": "7993701864",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "The username of your bot (without @)",
-      "value": "ShrutixMusicBot",
+      "value": "KAIxRObot",
       "required": true
     },
     "UPSTREAM_REPO": {
@@ -74,37 +74,37 @@
     },
     "SUPPORT_GROUP": {
       "description": "Your support group link",
-      "value": "https://t.me/ShrutiBotsupport",
+      "value": "https://t.me/KAIxGen",
       "required": false
     },
     "SUPPORT_CHANNEL": {
       "description": "Your support channel link",
-      "value": "https://t.me/ShrutiBots",
+      "value": "https://t.me/+rYcBOlCEIMVkNjll",
       "required": false
     },
     "INSTAGRAM": {
       "description": "Your Instagram profile link or Any Link",
-      "value": "https://instagram.com/yaduwanshi_nand",
+      "value": "https://instagram.com/GOKUxEDITION",
       "required": false
     },
     "YOUTUBE": {
       "description": "Your YouTube channel link or Any Link",
-      "value": "https://youtube.com/@NandEditz",
+      "value": "https://youtube.com/@GOKUxEDITION",
       "required": false
     },
     "GITHUB": {
       "description": "Your GitHub profile link or Any Link",
-      "value": "https://github.com/NoxxOP",
+      "value": "https://github.com/GOKUxEDITION",
       "required": false
     },
     "DONATE": {
       "description": "Link where people can support/donate or Any Link",
-      "value": "https://t.me/ShrutiBots/91",
+      "value": "https://t.me/GOKUxEDITION",
       "required": false
     },
     "START_IMG_URL": {
       "description": "Image that appears with the /start command",
-      "value": "https://graph.org/file/e054e63251ef2dc5729dd-6f719a9ecc59862631.png",
+      "value": "https://files.catbox.moe/3nujem.png",
       "required": false
     }
   },
